@@ -10,7 +10,7 @@ describe('detail Item', () => {
     cy.visit('/shop/')
   })
 
-  it('Sorting By Kategori', () => {
+  it('Items', () => {
     cy.get('#brxe-tigycb a[aria-describedby="woocommerce_loop_add_to_cart_link_describedby_6078"]').click();
     cy.get('#brxe-noxhxh h1.brxe-product-title').should('have.text', 'Plastik PP');
     //ganti gambar
