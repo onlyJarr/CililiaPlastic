@@ -82,7 +82,7 @@ describe('Product', () => {
     cy.get('#brxe-tigycb div:nth-child(7) h3.brxe-udirma').should('have.text', 'Kantong Kresek Plastik Bening – New Segitiga');
   })
 
-  it.only('About Cilia', () => {
+  it('About Cilia', () => {
     // cy.wait(2000)
     //assert logo 
     cy.get('#brxe-rpsztw h3')
